@@ -1,12 +1,25 @@
-# React + Vite
+# e-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview:
+This e-commerce app power with React for the frontend and Supabase for the backend. The E-commerce allows user to browse products, add items to their carts and make secure payments.
 
-Currently, two official plugins are available:
+The tech stack use:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React, Tailwind CSS
+Backend: Supabase (PostgreSQL, Auth, Storage)
+Payments: Stripe API
+State Management: React Context
+Routing: React Router
+Containerization: Docker
 
-## Expanding the ESLint configuration
+Planned Features:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User Authentication: Sign up, login, and password recovery via Supabase Auth.
+Product Management: View, search, and filter products.
+Shopping Cart: Add/remove items, view totals, and update quantities.
+Stripe Checkout: Secure payments with order summary.
+Order History: Save and view past purchases.
+Admin Panel: Add/edit products, manage inventory.
+Responsive Design: Mobile and desktop-friendly UI.
+Image Uploads: Store product images with Supabase Storage.
+Containerized Deployment: Use Docker to run the app in isolated containers for consistent environments.
